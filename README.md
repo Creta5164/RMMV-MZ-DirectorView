@@ -59,14 +59,14 @@ It's used in [Causality (因果律)](https://store.steampowered.com/app/1158720/
     - 2.3.4\. [Seamless set player's position](#234-Seamless-set-players-position)
     - 2.3.5\. [Reset to default](#235-Reset-to-default)
 - 3\. [Plugin options](#3-Plugin-options)
-  - [Default offset X, Y](#default-offset-x-y)
-  - [Default lookahead view](#default-lookahead-view)
-  - [Default lookahead X, Y](#default-lookahead-x-y)
-  - [Lookahead delay](#lookahead-delay)
-  - [Lookahead duration](#lookahead-duration)
-  - [Anchor transition duration](#anchor-transition-duration)
-  - [Use accurate anchor check](#use-accurate-anchor-check)
-  - [Option label : Use fixed camera](#option-label--use-fixed-camera)
+  - 3.1\. [Default offset X, Y](#31-default-offset-x-y)
+  - 3.2\. [Default lookahead view](#32-default-lookahead-view)
+  - 3.3\. [Default lookahead X, Y](#33-default-lookahead-x-y)
+  - 3.4\. [Lookahead delay](#34-lookahead-delay)
+  - 3.5\. [Lookahead duration](#35-lookahead-duration)
+  - 3.6\. [Anchor transition duration](#36-anchor-transition-duration)
+  - 3.7\. [Use accurate anchor check](#37-use-accurate-anchor-check)
+  - 3.8\. [Option label : Use fixed camera](#38-option-label--use-fixed-camera)
 - 4\. [Third-party library/sources notice](#4-Third-party-librarysources-notice)
 
 # [1.][toc] Preparation
@@ -474,7 +474,7 @@ When executed it, adjusted value are restore to default.
 
 # [3.][toc] Plugin options
 
-### Default offset X, Y
+## [3.1.][toc] Default offset X, Y
 
 Initial camera offset.
 
@@ -482,7 +482,7 @@ Default value is `0`.
 
 > This will be applied when starting new game or calling `ResetToInitialPluginValue`.
 
-### Default lookahead view
+## [3.2.][toc] Default lookahead view
 
 Initial Use lookahead value.
 
@@ -490,7 +490,7 @@ Default value is `true (ON)`.
 
 > This will be applied when starting new game or calling `ResetToInitialPluginValue`.
 
-### Default lookahead X, Y
+## [3.3.][toc] Default lookahead X, Y
 
 Initial Lookahead offset value.
 
@@ -498,20 +498,20 @@ Default value is `2.5`.
 
 > This will be applied when starting new game or calling `ResetToInitialPluginValue`.
 
-### Lookahead delay
+## [3.4.][toc] Lookahead delay
 
 Lookahead transition is not started just starting move at time,
 it'll be started when player moves over this amount of frames.
 
 Same as RPG Maker's time unit (60 = 1s), default value is `15`.
 
-### Lookahead duration
+## [3.5.][toc] Lookahead duration
 
 Specifies how long the lookahead transition takes.
 
 Same as RPG Maker's time unit (60 = 1s), default value is `30`.
 
-### Anchor transition duration
+## [3.6.][toc] Anchor transition duration
 
 When active anchor count changed, camera will transition into new anchors center.  
 This specifies how long camera move transition to new anchors center takes.
@@ -520,7 +520,7 @@ If turns into only player's anchor left then it'll use half of this value for tr
 
 Same as RPG Maker's time unit (60 = 1s), default value is `60`.
 
-### Use accurate anchor check
+## [3.7.][toc] Use accurate anchor check
 
 DirectorView by default handles the calculation of the anchor's active range using AABB.  
 Specifies whether to use the option to calculate distances more accurately than this.  
@@ -528,7 +528,7 @@ When used, it changes from a rectangular to a circular range.
 
 Default value is `false (OFF)`
 
-### Option label : Use fixed camera
+## [3.8.][toc] Option label : Use fixed camera
 
 Contents of the display text for `Use fixed camera` that will shows in the in-game options menu.
 
