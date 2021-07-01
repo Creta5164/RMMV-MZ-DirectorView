@@ -115,7 +115,7 @@ DirectorView.Initialize = function(saveContents) {
         DirectorView._LookaheadOffset = saveContents._LookaheadOffset || { H: 0, V: 0 };
         DirectorView.Offset           = saveContents.Offset           || { X: Number(options['default-offset-x']), Y: Number(options['default-offset-y']) };
         DirectorView.LookaheadOffset  = saveContents.LookaheadOffset  || { H: Number(options['lookahead-h']),      V: Number(options['lookahead-v'])      };
-        DirectorView.UseLookahead     = saveContents.UseLookahead     || Boolean(options['use-lookahead']);
+        DirectorView.UseLookahead     = saveContents.UseLookahead     || options['use-lookahead'] === 'true';
         
     } else {
         
@@ -123,7 +123,7 @@ DirectorView.Initialize = function(saveContents) {
         DirectorView._LookaheadOffset = { H: 0,   V: 0   };
         DirectorView.Offset           = { X: Number(options['default-offset-x']), Y: Number(options['default-offset-y']) };
         DirectorView.LookaheadOffset  = { H: Number(options['lookahead-h']),      V: Number(options['lookahead-v'])      };
-        DirectorView.UseLookahead     = Boolean(options['use-lookahead']);
+        DirectorView.UseLookahead     = options['use-lookahead'] === 'true';
     }
     
     DirectorView.AnchorTargets = [ $gamePlayer ];
@@ -174,7 +174,7 @@ DirectorView.ResetToInitialPluginValue = function() {
     DirectorView.LookaheadOffset.H = Number(options['lookahead-h']);
     DirectorView.LookaheadOffset.V = Number(options['lookahead-v']);
     
-    DirectorView.UseLookahead      = Boolean(options['use-lookahead']);
+    DirectorView.UseLookahead      = options['use-lookahead'] === 'true';
 }
 
 DirectorView.SetPosition = function(x, y, keepOffset) {
