@@ -526,7 +526,7 @@ DirectorView는 기본적으로 앵커의 활성화 범위를 사각형 충돌 �
 이 기능을 사용하면, 실제 거리에 따라 활성화를 하도록 변경합니다.  
 활성화 범위가 사각형에서 원형으로 변경됩니다.
 
-기본 값은 `false (OFF) 입니다`
+기본 값은 `false (OFF)` 입니다.
 
 ## [3.8.][toc] Option label : Use fixed camera
 
