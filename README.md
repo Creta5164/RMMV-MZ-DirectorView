@@ -59,6 +59,14 @@ It's used in [Causality (因果律)](https://store.steampowered.com/app/1158720/
     - 2.3.4\. [Seamless set player's position](#234-Seamless-set-players-position)
     - 2.3.5\. [Reset to default](#235-Reset-to-default)
 - 3\. [Plugin options](#3-Plugin-options)
+  - [Default offset X, Y](#default-offset-x-y)
+  - [Default lookahead view](#default-lookahead-view)
+  - [Default lookahead X, Y](#default-lookahead-x-y)
+  - [Lookahead delay](#lookahead-delay)
+  - [Lookahead duration](#lookahead-duration)
+  - [Anchor transition duration](#anchor-transition-duration)
+  - [Use accurate anchor check](#use-accurate-anchor-check)
+  - [Option label : Use fixed camera](#option-label--use-fixed-camera)
 - 4\. [Third-party library/sources notice](#4-Third-party-librarysources-notice)
 
 # [1.][toc] Preparation
