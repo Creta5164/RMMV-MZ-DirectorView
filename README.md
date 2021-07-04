@@ -14,6 +14,9 @@ It's used in [Causality (因果律)](https://store.steampowered.com/app/1158720/
 
 # Specification
 
+- RPG Maker MV Only  
+  Since Causality (因果律) was based on the RPG Maker MV, so DirectorView is works with MV environment.
+
 - Lookahead view support  
   When the player starts moving, the camera moves ahead.  
   Player can change this option to turn on and off.
