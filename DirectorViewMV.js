@@ -1,7 +1,9 @@
 /*:
+ * @target MZ
  * @plugindesc simple camera plugin.
  * Version : Release 1.0.0
- * @author Creta Park (https://creft.me/cretapark)
+ * @author Creta Park
+ * @url https://creft.me/cretapark
  *
  * @help
  * 
