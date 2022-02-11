@@ -16,7 +16,7 @@ It's used in [Causality (因果律)](https://store.steampowered.com/app/1158720/
 
 - ~~RPG Maker MV Only~~  
   ~~Since Causality (因果律) was based on the RPG Maker MV, so DirectorView is works with MV environment.~~  
-  This problem was closed (See https://github.com/Creta5164/DirectorViewMV/issues/1)
+  This problem has been closed (See https://github.com/Creta5164/DirectorViewMV/issues/1)
 
 ![lookahead](./lookahead.gif)
 - Lookahead view support  
