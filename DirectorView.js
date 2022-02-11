@@ -1,19 +1,19 @@
 /*:
  * @target MZ
  * @plugindesc simple camera plugin.
- * Version : Release 1.0.0
+ * Version : Release 1.0.1
  * @author Creta Park
  * @url https://creft.me/cretapark
  *
  * @help
  * 
  * |                                                                  |
- * |                    ===== DirectorViewMV =====                    |
+ * |                     ===== DirectorView =====                     |
  * |                                                                  |
- * | DirectorViewMV is simple camera plugin.                          |
+ * | DirectorView is simple camera plugin.                            |
  * |                                                                  |
  * | Please follow instructions in README.md                          |
- * | or visit http://github.com/creta5164/DirectorViewMV .            |
+ * | or visit http://github.com/creta5164/DirectorView .              |
  * |                                                                  |
  * 
  * @param default-offset-x
@@ -107,7 +107,7 @@ DirectorView.NOTE_PREFIX = 'DV_Anchor[';
 
 DirectorView.Initialize = function(saveContents) {
     
-    var options = PluginManager.parameters("DirectorViewMV");
+    var options = PluginManager.parameters("DirectorView");
     
     if (saveContents && saveContents.DirectorView) {
         
@@ -168,7 +168,7 @@ DirectorView.Initialize = function(saveContents) {
 
 DirectorView.ResetToInitialPluginValue = function() {
     
-    var options = PluginManager.parameters("DirectorViewMV");
+    var options = PluginManager.parameters("DirectorView");
     
     DirectorView.Offset.X          = Number(options['default-offset-x']);
     DirectorView.Offset.Y          = Number(options['default-offset-y']);
@@ -930,10 +930,10 @@ ConfigManager.applyData = function(config) {
 DirectorView.SourceMethods.Window_Options_makeCommandList = Window_Options.prototype.makeCommandList;
 Window_Options.prototype.makeCommandList = function() {
     
-    console.log(PluginManager.parameters("DirectorViewMV"));
+    console.log(PluginManager.parameters("DirectorView"));
     
     this.addCommand(
-        PluginManager.parameters("DirectorViewMV")["string-use-fixed-camera"],
+        PluginManager.parameters("DirectorView")["string-use-fixed-camera"],
         'DirectorView.UseFixedCamera'
     );
     

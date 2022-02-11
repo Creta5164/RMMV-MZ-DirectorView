@@ -1,6 +1,6 @@
-# DirectorViewMV
+# DirectorView
 
-DirectorViewMV is simple camera plugin.
+DirectorView is simple camera plugin.
 
 Created by [Creta Park](https://creft.me/cretapark)  
 <a href="https://www.buymeacoffee.com/CretaPark" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" width="120" height="26"></a>
@@ -14,8 +14,9 @@ It's used in [Causality (因果律)](https://store.steampowered.com/app/1158720/
 
 # Specification
 
-- RPG Maker MV Only  
-  Since Causality (因果律) was based on the RPG Maker MV, so DirectorView is works with MV environment.
+- ~~RPG Maker MV Only~~  
+  ~~Since Causality (因果律) was based on the RPG Maker MV, so DirectorView is works with MV environment.~~  
+  This problem was closed (See https://github.com/Creta5164/DirectorViewMV/issues/1)
 
 - Lookahead view support  
   When the player starts moving, the camera moves ahead.  
