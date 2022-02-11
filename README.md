@@ -18,14 +18,17 @@ It's used in [Causality (因果律)](https://store.steampowered.com/app/1158720/
   ~~Since Causality (因果律) was based on the RPG Maker MV, so DirectorView is works with MV environment.~~  
   This problem was closed (See https://github.com/Creta5164/DirectorViewMV/issues/1)
 
+![lookahead](./lookahead.gif)
 - Lookahead view support  
   When the player starts moving, the camera moves ahead.  
   Player can change this option to turn on and off.
 
+![anchor-based](./anchor-based.gif)
 - Anchor based camera view  
   When a specific event or point is registered as anchor,
   camera will try to capture all of these anchors on the screen.
 
+![transition](./transition.gif)
 - Tweening camera move  
   When you execute a command, the camera can smoothly transition towards a specific position.
 

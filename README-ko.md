@@ -18,13 +18,16 @@ DirectorViewMV는 간단한 카메라 플러그인입니다.
   ~~인과율은 RPG 만들기 MV 기반이였기에 MV 환경에서만 사용되었습니다.~~  
   이 문제는 해결되었습니다. (https://github.com/Creta5164/DirectorViewMV/issues/1 를 확인하세요)
 
+![lookahead](./lookahead.gif)
 - 앞서가는 카메라 뷰 지원  
   플레이어가 움직이기 시작하면, 카메라가 부드럽게 앞서나가 보여주는 기능입니다.  
   이 기능은 플레이어가 설정에서 끌 수 있습니다.
 
+![anchor-based](./anchor-based.gif)
 - 앵커 기반 카메라 뷰  
   특정 이벤트나 장소가 앵커로 등록되면, 카메라가 모든 앵커를 담기 위해 움직입니다.
 
+![transition](./transition.gif)
 - 카메라 트위닝 이동  
   원하는 위치를 향해 카메라를 부드럽게 움직이는 등의 연출 기능이 있습니다.
 
